@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Page One - Responsive HTML CSS Template</title>
+<!--
+Page One Template
+https://templatemo.com/tm-504-page-one
+-->
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/magnific-popup.css">                                     <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/templatemo-style.css">                                   <!-- Templatemo style -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <![endif]-->
+      </head>
+
+      <body>
+	    <script>
+  alert("Welcome to my rapper fan site!");
+    </script>
+	<style>
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    font-family: Arial, sans-serif;
+    color: white;  /* make text white */
+  }
+
+  /* This creates the dark overlay on top of background */
+  body::before {
+    content: "";
+    position: fixed; /* stays fixed while scrolling */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* black with 60% opacity */
+    z-index: 0; /* behind content */
+  }
+
+  /* Wrap your content and place it above overlay */
+  .content {
+    position: relative;
+    z-index: 1; /* above overlay */
+    padding: 20px;
+  }
+</style>
+
+
+
+        
+        <div class="container-fluid" id="main">
+
+            <!-- Home -->
+            
+                <div class="tm-page-content-width tm-padding-b">
+                    <div class="text-center tm-site-title-wrap">
+                        <h1 class="tm-site-title">My Favorite Rappers</h1> 
+<style>
+  /* Other styles above... */
+
+  .tm-site-title {
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 0 #ff0000, 5px 5px 0 #00ffff;
+  }
+
+  /* Other styles below... */
+</style>
+
+						
+                    </div>                    
+                    <h2 class="carti-welcome">Welcome to the Other Side</h2>
+
+					
+
+<p>Featuring Playboi Carti, Future, and Lil Uzi Vert.</p>
+<p>Explore their music and styles through this fan page!</p>
+
+                        <h2 class="carti-welcome">Welcome to the Other Side</h2>
+						<style>
+  .carti-welcome {
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    font-size: 50px;
+    color: #ff0033; /* Blood red */
+    text-shadow: 2px 2px 6px black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+  }
+</style>
+
+
+
+                        
+<p>This site is a tribute to the iconic rappers <strong>Playboi Carti</strong>, <strong>Future</strong>, and <strong>Lil Uzi Vert</strong>. Dive into their music, vibe, and style through this fan-made page.</p>
+<p>Rap is more than just music—it's a powerful cultural movement that gives voice to personal stories, social struggles, and creative expression. Originating from the streets, it has grown into a global phenomenon that shapes fashion, language, and attitudes. With rhythmic beats, sharp lyrics, and infectious energy, rap connects communities and pushes boundaries, constantly evolving with new styles and innovators who redefine the art form. From storytelling to party anthems, rap's diversity and raw emotion make it one of the most influential music genres of our time.
+ 🔥</p>
+<h2>Gallery</h2>
+
+ <div style="margin-top: 20px;">
+  <img src="carti.jpg" alt="Playboi Carti" width="300" style="margin: 10px; border-radius: 12px; box-shadow: 0 0 10px #00ffcc;">
+  <img src="future.jpg" alt="Future" width="300" style="margin: 10px; border-radius: 12px; box-shadow: 0 0 10px #00ffcc;">
+  <img src="liluzi.jpg" alt="Lil Uzi Vert" width="300" style="margin: 10px; border-radius: 12px; box-shadow: 0 0 10px #00ffcc;">
+</div>
+
+
+                       
+                        <div style="margin-top: 20px;">
+  <h3>Who's your favorite rapper?</h3>
+  <input type="text" id="favRapper" placeholder="Type your favorite rapper" />
+  <button onclick="showRapper()">Submit</button>
+  <p id="rapperMessage" style="color: #27ae60; font-weight: bold;"></p>
+</div>
+
+<script>
+  function showRapper() {
+    let rapper = document.getElementById("favRapper").value;
+    document.getElementById("rapperMessage").innerText = rapper + " is fire! 🔥";
+  }
+</script>
+<section class="parallax-window tm-section tm-section-services" id="services" data-parallax="scroll" data-image-src="carti.jpg">
+  <div class="tm-page-content-width">
+    <div class="tm-translucent-white-bg tm-content-box tm-content-box-right tm-textbox-full-height">
+      <div class="tm-content-box-inner">
+        <h2 class="carti-heading">Carti</h2>
+<style> .carti-heading {
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  font-size: 48px;
+  color: #ff0033; /* deep red */
+  text-shadow: 2px 2px 6px black;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+</style>
+        <p>Playboi Carti (real name Jordan Terrell Carter) is a genre-bending artist known for his hypnotic beats, minimalist flows, and punk-inspired style. Emerging from Atlanta’s underground scene, he broke into the mainstream with hits like <em>Magnolia</em> and <em>Flex</em>, and later became a cultural icon with his 2020 album <strong>Whole Lotta Red</strong>.</p>
+        <p>Carti’s fashion, stage presence, and mysterious persona have made him a favorite among Gen Z fans and the music industry alike. His work continues to blur the lines between music, fashion, and performance art.</p>
+      </div>
+    </div>
+  </div>
+  <style>
+  #services p {
+  color: black;
+}
+</style>
+</section>
+
+
+
+
+
+
+            
+ <!-- Future -->
+<section class="parallax-window tm-section" id="gallery" data-parallax="scroll" data-image-src="future.jpg">
+  <div class="tm-page-content-width">
+    <div class="tm-translucent-white-bg tm-content-box tm-textbox-full-height">
+      <div class="tm-content-box-inner">
+
+        <!-- Title with correct class -->
+        <h2 class="future-heading">Future</h2>
+
+        <!-- Style block -->
+        <style>
+          .future-heading {
+            font-family: 'Impact', 'Arial Black', sans-serif;
+            font-size: 48px;
+            color: #ff0033; /* deep red */
+            text-shadow: 2px 2px 6px black;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-align: center;
+            margin-bottom: 20px;
+          }
+        </style>
+
+        <!-- Paragraph -->
+        <p>Future, born Nayvadius DeMun Wilburn, is a visionary Atlanta rapper and one of the key figures in modern trap music. Known for his melodic autotuned delivery and dark, atmospheric beats, Future has reshaped hip-hop with projects like <em>DS2</em>, <em>Hndrxx</em>, and his numerous chart-topping collaborations.</p>
+
+      </div>
+    </div>
+  </div>
+ <div style="text-align:center; margin-top:20px;">
+  <p id="futureQuote" style="font-style: italic; color: #ffcc00; font-size: 20px; text-shadow: 1px 1px 2px black;"></p>
+  <button onclick="generateQuote()" style="padding: 8px 15px; background:#ff0033; color:white; border:none; cursor:pointer; font-weight:bold;">New Quote</button>
+</div>
+
+<script>
+  const futureQuotes = [
+    "I live for the nights that I can't remember with the people that I won't forget.",
+    "Perfection is the enemy of progress.",
+    "I came from the mud, now I’m drippin’ in designer.",
+    "Real ones feel me.",
+    "Pour it up, pour it up, pour it up, pour it.",
+    "I’m the future of the culture."
+  ];
+
+  function generateQuote() {
+    const randomIndex = Math.floor(Math.random() * futureQuotes.length);
+    document.getElementById('futureQuote').textContent = `"${futureQuotes[randomIndex]}" — Future`;
+  }
+
+  // Show a quote when the page loads
+  generateQuote();
+</script>
+
+
+</section>
+
+
+
+           <!-- Lil Uzi Vert -->
+<section class="parallax-window tm-section tm-section-contact" id="contact" data-parallax="scroll" data-image-src="liluzi.jpg" style="position: relative;">
+  <div class="tm-page-content-width" style="position: relative; z-index: 2;">
+    <div class="tm-translucent-white-bg tm-content-box tm-textbox-full-height" style="background: rgba(0,0,0,0.5);">
+      <div class="tm-content-box-inner">
+
+        <h2 class="uzi-heading">Lil Uzi Vert</h2>
+
+        <style>
+          .uzi-heading {
+            font-family: 'Impact', 'Arial Black', sans-serif;
+            font-size: 48px;
+            color: #ff0033; /* deep red */
+            text-shadow: 2px 2px 6px black;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-align: center;
+            margin-bottom: 20px;
+          }
+        </style>
+
+        <p style="text-align: center; color: white;">
+          Lil Uzi Vert, born Symere Woods, is a genre-blending artist known for his futuristic sound, wild fashion, and unmatched energy. With hits like <em>XO Tour Llif3</em> and <em>Just Wanna Rock</em>, Uzi redefined what it means to be a rockstar in the rap game. His unique style and sound continue to influence a whole new generation.
+        </p>
+
+      </div>
+    </div>
+  </div>
+  <div style="text-align:center; margin-top:20px;">
+  <p id="uziQuote" style="font-style: italic; color: #00ffff; font-size: 20px; text-shadow: 1px 1px 2px black;"></p>
+  <button onclick="generateUziQuote()" style="padding: 8px 15px; background:#00bfff; color:white; border:none; cursor:pointer; font-weight:bold;">New Quote</button>
+</div>
+
+<script>
+  const uziQuotes = [
+    "Money longer than a flight to Japan.",
+    "I’m a rockstar, I’m a rockstar, I’m a rockstar.",
+    "You say you love me, but you don’t love me.",
+    "Diamonds dancing on my wrist, so icy.",
+    "Countin' racks, no stress.",
+    "I’m on the moon, I’m on the moon."
+  ];
+
+  function generateUziQuote() {
+    const randomIndex = Math.floor(Math.random() * uziQuotes.length);
+    document.getElementById('uziQuote').textContent = `"${uziQuotes[randomIndex]}" — Lil Uzi Vert`;
+  }
+
+  // Show a quote when the page loads
+  generateUziQuote();
+</script>
+
+</section>
+
+
+
+        
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script>         <!-- https://jquery.com/download/ -->
+        <script src="js/isotope.pkgd.min.js"></script>          <!-- https://isotope.metafizzy.co/ -->
+        <script src="js/imagesloaded.pkgd.min.js"></script>     <!-- https://imagesloaded.desandro.com/ --> 
+        <script src="js/jquery.magnific-popup.min.js"></script> <!-- http://dimsemenov.com/plugins/magnific-popup/ -->
+        <script src="js/parallax.min.js"></script>
+        <script>     
+            $(document).ready(function () {
+                // Isotope for Gallery
+                if ( $('.iso-box-wrapper').length > 0 ) { 
+
+                    var $container  = $('.iso-box-wrapper'), 
+                    $imgs     = $('.iso-box img');
+
+                    $container.imagesLoaded(function () {
+                        $container.isotope({
+                            layoutMode: 'fitRows',
+                            itemSelector: '.iso-box'
+                        });
+                        $imgs.load(function(){
+                            $container.isotope('reLayout');
+                        })
+                    });
+
+                    //filter items on button click
+                    $('.filter-wrapper li a').click(function(){
+                        var $this = $(this), filterValue = $this.attr('data-filter');
+                        $container.isotope({ 
+                            filter: filterValue,
+                            animationOptions: { 
+                                duration: 750, 
+                                easing: 'linear', 
+                                queue: false, 
+                            }                
+                        });             
+
+                        // don't proceed if already selected
+                        if ( $this.hasClass('selected') ) { 
+                            return false; 
+                        }
+
+                        var filter_wrapper = $this.closest('.filter-wrapper');
+                        filter_wrapper.find('.selected').removeClass('selected');
+                        $this.addClass('selected');
+
+                        return false;
+                    });
+                }
+
+                // Magnific Popup for Gallery
+                $('.iso-box-wrapper').magnificPopup({
+                    delegate: 'a', // child items selector, by clicking on it popup will open
+                    type: 'image',
+                    gallery:{enabled:true}
+                });
+
+                // Smooth scrolling (https://css-tricks.com/snippets/jquery/smooth-scrolling/)
+                // Select all links with hashes
+                $('a[href*="#"]')
+                  // Remove links that don't actually link to anything
+                  .not('[href="#"]')
+                  .not('[href="#0"]')
+                  .click(function(event) {
+                    // On-page links
+                    if (
+                      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+                      && 
+                      location.hostname == this.hostname
+                    ) {
+                      // Figure out element to scroll to
+                      var target = $(this.hash);
+                      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                      // Does a scroll target exist?
+                      if (target.length) {
+                        // Only prevent default if animation is actually gonna happen
+                        event.preventDefault();
+                        $('html, body').animate({
+                          scrollTop: target.offset().top
+                        }, 600, function() {
+                          // Callback after animation
+                          // Must change focus!
+                          var $target = $(target);
+                          $target.focus();
+                          if ($target.is(":focus")) { // Checking if the target was focused
+                            return false;
+                          } else {
+                            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                            $target.focus(); // Set focus again
+                          };
+                        });
+                      }
+                    }
+                  });
+
+                // Update the current year in copyright
+                $('.tm-current-year').text(new Date().getFullYear());          
+            });
+    </script>  
+<footer>
+  <p>SUBAH JARIN - 24229595</p>
+  
+</footer>
+	
+</body>
+</html>
