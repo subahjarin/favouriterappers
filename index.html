@@ -163,6 +163,30 @@ https://templatemo.com/tm-504-page-one
   color: black;
 }
 </style>
+<!-- Inside Carti section -->
+<div style="text-align:center; margin-top:20px;">
+  <p id="cartiQuote" style="font-style: italic; color: gold; font-size: 20px; text-shadow: 1px 1px 3px #b8860b;"></p>
+  <button onclick="generateCartiQuote()" style="padding: 8px 15px; background: gold; color: black; border: none; cursor: pointer; font-weight: bold;">New Quote</button>
+</div>
+
+<script>
+  const cartiQuotes = [
+    "Whole lotta drip, whole lotta lean.",
+    "I’m a rockstar, baby, I’m a rockstar.",
+    "Flexin’ with my bandz, no cappin’.",
+    "Vamp life forever, no sleep.",
+    "I just wanna vibe and make hits.",
+    "Diamonds on me glowin’, feel the energy."
+  ];
+
+  function generateCartiQuote() {
+    const randomIndex = Math.floor(Math.random() * cartiQuotes.length);
+    document.getElementById('cartiQuote').textContent = `"${cartiQuotes[randomIndex]}" — Playboi Carti`;
+  }
+
+  generateCartiQuote();
+</script>
+
 </section>
 
 
